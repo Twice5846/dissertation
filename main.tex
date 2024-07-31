@@ -1,0 +1,81 @@
+\documentclass[
+  draft=false,
+  paper=a4,
+  fontsize=12pt,
+  pagesize=auto,
+  twoside=false,
+  headings=small,openany,
+  chapterprefix=false,
+  version=last,
+  titlepage=true,
+  parskip=half+,
+  mpinclude=false,
+  headsepline=true,
+  toc=bibliography,
+  toc=index,
+  numbers=noendperiod
+]{scrbook}
+\usepackage{scrlayer-scrpage}
+\usepackage[
+  backend=biber,
+  style=authoryear,
+  natbib=false,
+  sorting=anyt,
+  sortcites=true,
+  hyperref=auto,
+  minnames=1,
+  maxnames=1,
+  maxbibnames=3,
+  dashed=false,
+  isbn=false,
+  alldates=year,
+  urldate=short,
+  giveninits=true,
+  uniquename=init,
+  maxcitenames=1,
+  mincitenames=1
+]{biblatex}
+\addbibresource{bib.bib}
+\usepackage{microtype}
+\usepackage{csquotes}
+\usepackage[english]{babel}
+
+\DeclareNewPageStyleByLayers{emptyfooter}{}
+
+\begin{document}
+
+\title{A Modeling Method for \\ Conceptualizing and Documenting \\ Software Architectures}
+\subtitle{}
+\author{Sven Christ}
+\date{}
+
+\maketitle
+
+\pagestyle{empty}
+
+\chapter*{Preface}
+\thispagestyle{empty}
+
+XXX
+
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+\tableofcontents
+
+\newpage
+
+\include{0_preliminary}
+
+\setcounter{page}{1}
+\pagestyle{plain}
+
+
+
+
+\chapter{Introduction}
+
+
+
+
+\printbibliography
+
+\end{document}
