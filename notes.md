@@ -1,0 +1,1 @@
+Focus on how software (architecture) supports business goals rather than the technical software architecture.

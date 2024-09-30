@@ -42,9 +42,13 @@
 
 \DeclareNewPageStyleByLayers{emptyfooter}{}
 
+\newcommand{\gap}{\begin{center}
+  * * *
+\end{center}}
+
 \begin{document}
 
-\title{A Modeling Method for \\ Conceptualizing and Documenting \\ Software Architectures}
+\title{A Modeling Method for \\ Conceptualizing and Aligning \\ Software Architectures}
 \subtitle{}
 \author{Sven Christ}
 \date{}
@@ -63,17 +67,12 @@ XXX
 
 \newpage
 
-\include{0_preliminary}
-
 \setcounter{page}{1}
 \pagestyle{plain}
 
-
-
-
-\chapter{Introduction}
-
-
+\include{0_preliminary}
+\include{1_introduction}
+\include{2_methodology}
 
 
 \printbibliography

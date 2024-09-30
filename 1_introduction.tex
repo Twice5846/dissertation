@@ -1,0 +1,72 @@
+\chapter{Introduction}
+
+% Distinguish software and information systems.
+
+Information systems collect, process, store, and distribute data to provide information and knowledge.
+Today, information systems integrate hardware, software, data, processes, and people to support business operations and management.
+Holistic modeling of information systems (ArchiMate, ...) is still a growing body of research.
+Likewise, the modeling of processes (BPMN, ...) and the modeling of data (ERM, ...) are well-established fields.
+Yet, Little attention has been paid to the modeling of \textit{software} within the context of information systems.
+Existing software modeling approaches (UML, ...) fall short because they focus on the design of individual software components rather than the architecture of the entire software system.
+
+The analogy of architecture from the physical realm, as traditionally understood in the planning and design of buildings and structures, has long been employed in computer science to conceptualize and communicate the high-level structure of software systems.
+This metaphor, while useful, introduces a layer of metaphorical complexity due to the intangible and dynamic nature of software as opposed to the tangible and static nature of physical structures.
+Unlike buildings, software systems are inherently adaptable and mutable, often undergoing continuous evolution to meet changing user needs and technological advancements.
+
+% Software vs. software systems
+
+From the perspective of information systems, the architecture of software systems holds particular significance.
+% Scholar Sinz "software architecture"
+The concept of architecture in this context emphasizes not only the system's structure but also the alignment of the system with processes, people and, ultimately, business objectives.
+Despite the critical role of software architecture, there exists a gap between theoretical insights and practical applications.
+Current modeling languages like the Unified Modeling Language (UML) and ArchiMate offer various means to represent software architectures but often fall short in addressing the full spectrum of architectural concerns.
+UML, for instance, provides detailed component diagrams but may lack in expressing higher-level architectural abstractions effectively.
+ArchiMate, while useful for high-level enterprise architecture modeling, might operate at an abstraction level too elevated for practical software architecture needs, rendering it expressively weak in certain contexts.
+
+This dissertation emerges at the intersection of these challenges and seeks to contribute to the software architecture literature.
+The focus is on developing and evaluating a novel modeling method that addresses the challenges of software architecture design, communication, and maintenance in the context of business information systems.
+The key objective is to synthesize a reflected, differentiated view on software architecture, building upon a sound empirical and theoretical foundation.
+
+\gap
+
+The motivation for this research is rooted in the high complexity of modern software systems and the limitations of existing modeling approaches in effectively capturing and communicating architectural nuances.
+By enhancing the cognitive comprehension of software architectures through improved modeling methods, organizations can achieve better alignment between software systems and business objectives, facilitate smoother transitions, and enhance overall productivity.
+
+Moreover, the dynamic nature of software development, characterized by rapid technological changes and evolving user requirements, necessitates architectures that are not only well-designed but also adaptable.
+The lifecycle of software is accelerating, making it imperative to consider evolutionary aspects within architectural models.
+This includes strategies for designing architectures that can accommodate future changes without necessitating complete overhauls, thereby preserving investments and maintaining system integrity over time.
+
+Addressing the complexities of software architecture involves grappling with several conceptual challenges:
+\begin{enumerate}
+  \item \textit{Multiformity}: Software systems vary widely in form and scale, from small embedded systems to global cloud applications.
+        Crafting a universal definition or modeling approach that encompasses this diversity is inherently challenging.
+  \item \textit{Separating the Variant from the Invariant}: Distinguishing between foundational architectural concepts and those subject to change is crucial for developing robust models.
+  \item \textit{Accounting for the Dynamics of Change}: Architectural models must anticipate and facilitate future evolution, requiring an understanding of how present decisions impact adaptability.
+  \item \textit{Multiple Levels of Abstraction}: Software architecture operates across various levels of abstraction, from high-level designs to detailed specifications.
+        Developing concepts to represent architectures across these levels is essential.
+  \item \textit{Metaphorical Complexity}: The metaphor of architecture introduces complexities when applied to software due to its intangible and dynamic nature.
+\end{enumerate}
+
+To address these challenges and contribute meaningful advancements in the field, this dissertation is guided by several key objectives.
+Each objective is designed to tackle a specific facet of the overarching challenges.
+\begin{enumerate}
+  \item \textit{Achieving Conceptual Clarity about Software Architecture}: Establishing a clear, scientifically sound definition of software architecture that encompasses its multifaceted nature, including both functional and non-functional requirements.
+        This definition should serve as a reference point for future discussions and research.
+  \item \textit{Differentiated Reconstruction of Prospective Users’ Requirements}: Understanding the needs and challenges faced by software architects and developers through empirical studies.
+        This involves capturing practical insights to inform the development of modeling languages and tools that are aligned with real-world practices.
+  \item \textit{Thorough Reconstruction of Existing Approaches}: Critically examining current modeling languages such as UML and ArchiMate to assess their strengths, weaknesses, and application areas.
+        This analysis is essential to identify gaps and inform the development of new or complementary modeling approaches.
+  \item \textit{Developing a Dedicated Domain-Specific Modeling Language and Modeling Method}: Creating a modeling language that integrates theoretical insights with practical challenges, capable of representing the complexity of modern software architectures.
+        The language should be intuitive and accessible to promote widespread adoption within the developer community.
+\end{enumerate}
+
+The outcomes of this research hold significant potential for making substantial contributions to both the academic community and practical industry applications.
+By advancing theoretical understanding, this research enriches the foundational knowledge that underpins software architecture as a discipline.
+It provides new perspectives and frameworks that can stimulate further scholarly inquiry.
+On the practical side, the research offers tangible tools and methods that can enhance the way software systems are designed and managed, leading to improved efficiency and effectiveness in the industry.
+By fostering a closer alignment between theoretical concepts and practical needs, the research bridges a critical gap, facilitating collaboration and knowledge transfer between academia and industry.
+\begin{enumerate}
+  \item \textit{Theoretical Advancement}: By addressing the conceptual challenges and establishing a clear definition of software architecture, the research contributes to the theoretical foundation of the field.
+  \item \textit{Practical Impact}: The development of a new modeling method and language can directly impact software development practices, leading to improved communication, design, and maintenance of software systems.
+  \item \textit{Bridging Theory and Practice}: By aligning theoretical insights with practitioner requirements, the research bridges the gap between academia and industry, ensuring that the outcomes are both scientifically rigorous and practically relevant.
+\end{enumerate}
